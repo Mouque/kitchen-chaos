@@ -10,6 +10,8 @@ public class GameInput : MonoBehaviour
     {
         playerInputActions = new PlayerInputActions();
         playerInputActions.Player.Enable();
+
+
     }
     public Vector2 GetMovimentVectorNormalized()
     {
