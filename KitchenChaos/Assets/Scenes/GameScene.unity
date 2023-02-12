@@ -662,6 +662,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1065012673}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1001669623 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9170959835070794831, guid: b14ef168d705a6f4c9272dbaf7a83cf3,
+    type: 3}
+  m_PrefabInstance: {fileID: 2777661354796511745}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1056560102 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5935359297511920109, guid: b14ef168d705a6f4c9272dbaf7a83cf3,
@@ -1016,6 +1022,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -3407201010660080585, guid: b14ef168d705a6f4c9272dbaf7a83cf3,
+        type: 3}
+      propertyPath: tomatoPrefab
+      value: 
+      objectReference: {fileID: 3636383059601305346, guid: 94eac5473bd26da468d77abb9487da55,
+        type: 3}
+    - target: {fileID: -3407201010660080585, guid: b14ef168d705a6f4c9272dbaf7a83cf3,
+        type: 3}
+      propertyPath: counterTopPoint
+      value: 
+      objectReference: {fileID: 1001669623}
     - target: {fileID: 1515216326465859441, guid: b14ef168d705a6f4c9272dbaf7a83cf3,
         type: 3}
       propertyPath: visualGameObject
@@ -1107,3 +1124,76 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b14ef168d705a6f4c9272dbaf7a83cf3, type: 3}
+--- !u!1001 &3636383059419051904
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3636383059601305345, guid: 94eac5473bd26da468d77abb9487da55,
+        type: 3}
+      propertyPath: m_Name
+      value: Tomato
+      objectReference: {fileID: 0}
+    - target: {fileID: 3636383059601305346, guid: 94eac5473bd26da468d77abb9487da55,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3636383059601305346, guid: 94eac5473bd26da468d77abb9487da55,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3636383059601305346, guid: 94eac5473bd26da468d77abb9487da55,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3636383059601305346, guid: 94eac5473bd26da468d77abb9487da55,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3636383059601305346, guid: 94eac5473bd26da468d77abb9487da55,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3636383059601305346, guid: 94eac5473bd26da468d77abb9487da55,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3636383059601305346, guid: 94eac5473bd26da468d77abb9487da55,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3636383059601305346, guid: 94eac5473bd26da468d77abb9487da55,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3636383059601305346, guid: 94eac5473bd26da468d77abb9487da55,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3636383059601305346, guid: 94eac5473bd26da468d77abb9487da55,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3636383059601305346, guid: 94eac5473bd26da468d77abb9487da55,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 94eac5473bd26da468d77abb9487da55, type: 3}
