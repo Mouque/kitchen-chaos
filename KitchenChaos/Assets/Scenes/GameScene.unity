@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -662,6 +662,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1065012673}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1056560102 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5935359297511920109, guid: b14ef168d705a6f4c9272dbaf7a83cf3,
+    type: 3}
+  m_PrefabInstance: {fileID: 2777661354796511745}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1065012673
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1010,6 +1016,31 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1515216326465859441, guid: b14ef168d705a6f4c9272dbaf7a83cf3,
+        type: 3}
+      propertyPath: visualGameObject
+      value: 
+      objectReference: {fileID: 1056560102}
+    - target: {fileID: 1818837761717053409, guid: b14ef168d705a6f4c9272dbaf7a83cf3,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1818837761717053409, guid: b14ef168d705a6f4c9272dbaf7a83cf3,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1818837761717053409, guid: b14ef168d705a6f4c9272dbaf7a83cf3,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1818837761717053409, guid: b14ef168d705a6f4c9272dbaf7a83cf3,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2777661355141648961, guid: b14ef168d705a6f4c9272dbaf7a83cf3,
         type: 3}
       propertyPath: m_Name
@@ -1070,7 +1101,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1515216326465859441, guid: b14ef168d705a6f4c9272dbaf7a83cf3, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
