@@ -1711,6 +1711,29 @@ PrefabInstance:
       propertyPath: counterTopPoint
       value: 
       objectReference: {fileID: 547492623}
+    - target: {fileID: 2806409928320107544, guid: 02e6e751ba9989f4b82158676cfc93e8,
+        type: 3}
+      propertyPath: cuttingRecipeSOArray.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2806409928320107544, guid: 02e6e751ba9989f4b82158676cfc93e8,
+        type: 3}
+      propertyPath: cuttingRecipeSOArray.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: d56b1f0278a473c49935e0c9e045594a,
+        type: 2}
+    - target: {fileID: 2806409928320107544, guid: 02e6e751ba9989f4b82158676cfc93e8,
+        type: 3}
+      propertyPath: cuttingRecipeSOArray.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: dab4152dd441e864894e7d90035a20cd,
+        type: 2}
+    - target: {fileID: 2806409928320107544, guid: 02e6e751ba9989f4b82158676cfc93e8,
+        type: 3}
+      propertyPath: cuttingRecipeSOArray.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: 3430abbefa5fba74a8580af79a487b26,
+        type: 2}
     - target: {fileID: 7286044151566875424, guid: 02e6e751ba9989f4b82158676cfc93e8,
         type: 3}
       propertyPath: m_Name
