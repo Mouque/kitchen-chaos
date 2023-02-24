@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e693f21118ff5745b9c1d05af64240e, type: 3}
-  m_Name: CheeseBlock-CheeseSlices
+  m_Script: {fileID: 11500000, guid: b7c9fc0079fbfa64a899f2bbcb832183, type: 3}
+  m_Name: MeatPattyCooked-MeatPattyBurned
   m_EditorClassIdentifier: 
-  input: {fileID: 11400000, guid: 870ce8c15876115458818357a45bb647, type: 2}
-  output: {fileID: 11400000, guid: dd47a47730d97e04a815e7c3b5ba80aa, type: 2}
-  cuttingProgressMax: 3
+  input: {fileID: 11400000, guid: 5363bf12bb8f870458303d24823e75f1, type: 2}
+  output: {fileID: 11400000, guid: 7026924219fe84648a491c94b8339c64, type: 2}
+  burningTimerMax: 5
