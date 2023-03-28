@@ -288,6 +288,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 5363bf12bb8f870458303d24823e75f1, type: 2}
   - {fileID: 11400000, guid: 7026924219fe84648a491c94b8339c64, type: 2}
   - {fileID: 11400000, guid: 06d352c0ac93f2249a0141ae93fcbc06, type: 2}
+  plateCompleteVisual: {fileID: 6602821941047093216}
 --- !u!1 &4232672387653791111
 GameObject:
   m_ObjectHideFlags: 0
@@ -612,6 +613,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1415264026402818897}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &6602821941047093216 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5189809989340196017, guid: 10e39c981f2de6441b54efde32ced8f0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1415264026402818897}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2100da1df0cd4574db1b283ad2a57e5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2478625343718242145
 PrefabInstance:
   m_ObjectHideFlags: 0

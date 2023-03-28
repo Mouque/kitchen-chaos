@@ -16,7 +16,7 @@ PrefabInstance:
     - target: {fileID: 2777661355141648963, guid: 595de1768d5666e479e30c33dc100773,
         type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 2777661355141648963, guid: 595de1768d5666e479e30c33dc100773,
         type: 3}
@@ -112,6 +112,8 @@ MonoBehaviour:
   counterTopPoint: {fileID: 8109094209425441829}
   plateKitchenObjectSO: {fileID: 11400000, guid: 2ed735618b7c48647ae7890ad82d8c6a,
     type: 2}
+  plateKitchenObjectPrefabWithList: {fileID: 5620487457182375984, guid: c7c4f0d30c279fd4487b099a550e6f27,
+    type: 3}
 --- !u!4 &8109094209425441829 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9170959835070794831, guid: 595de1768d5666e479e30c33dc100773,

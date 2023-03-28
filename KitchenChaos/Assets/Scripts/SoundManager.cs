@@ -30,6 +30,13 @@ public class SoundManager : MonoBehaviour
         Player.Instance.OnPickedSomething += Player_OnPickedSomething;
         BaseCounter.OnAnyObjectPlacedHere += BaseCounter_OnAnyObjectPlacedHere;
         TrashCounter.OnAnyObjectTrashed += TrashCounter_OnAnyObjectTrashed;
+        ContainerCounter.Instance.OnPlayerGrabbedObjectCarryingPlate += ContainerCounter_OnPlayerGrabbedObjectCarryingPlate;
+    }
+
+    private void ContainerCounter_OnPlayerGrabbedObjectCarryingPlate(object sender, EventArgs e)
+    {
+        ContainerCounter containerCounter = sender as ContainerCounter;
+        PlaySound(audioClipRefsSO.objectPickup, containerCounter.transform.position);
     }
 
     private void TrashCounter_OnAnyObjectTrashed(object sender, EventArgs e)
@@ -83,6 +90,16 @@ public class SoundManager : MonoBehaviour
     {
         PlaySound(audioClipRefsSO.footstep, position, volume);
     }
+    public void PlayCountdownSound()
+    {
+        PlaySound(audioClipRefsSO.warning, Vector3.zero);
+    }
+    public void PlayWarningSound(Vector3 position)
+    {
+        PlaySound(audioClipRefsSO.warning, position);
+    }
+
+
 
     public void ChangeVolume()
     {
